@@ -1,0 +1,881 @@
+2025-09-12 08:22:23,268 - INFO - Flow started with ID: 1adb97cd-f9f5-41b3-b63b-b467340486f2
+2025-09-12 08:22:23,271 - INFO - Tokens used: 0
+2025-09-12 08:22:23,337 - INFO - 
+LiteLLM completion() model= mixtral-8x7b-32768; provider = groq
+2025-09-12 08:22:23,851 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-12 08:23:49,044 - INFO - Flow started with ID: b4b9b910-7620-471c-bacb-1457c705c657
+2025-09-12 08:23:49,048 - INFO - Tokens used: 0
+2025-09-12 08:23:49,095 - INFO - 
+LiteLLM completion() model= llama-3.1-70b-versatile; provider = groq
+2025-09-12 08:23:49,680 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-09-12 08:24:50,537 - INFO - Flow started with ID: 860946e1-5991-489c-9e4e-55be6b9f1f2f
+2025-09-12 08:24:50,539 - INFO - Tokens used: 0
+2025-09-12 08:24:50,590 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 08:24:53,161 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 08:24:53,171 - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-12 08:24:53,178 - INFO - [2025-09-12 08:24:53.178673] Customer: (In a neutral Israeli accent)
+
+Customer Service: Hello, thank you for calling our Israeli TV channel, Maaleh Adumim. This is Rivka, how may I assist you today?
+
+Me (in Hebrew): Shalom, anachnu la'azor. 
+
+(I'd like to request your assistance)
+
+Customer Service: Shalom, ma zeh ha-kara?
+
+(My pleasure, what's the problem?)
+
+Me (in Hebrew): Ani rotze la'atzor et hanichnid ha-Maabane, ha-anani shelechet. Mi yotze ati?
+
+(I want to cancel my subscription, the one I signed up for. Can you help me?)
+2025-09-12 08:24:53,202 - ERROR - Error executing listener process_customer_input: Phonemizer.phonemize() missing 8 required positional arguments: 'preserve_punctuation', 'preserve_stress', 'use_expander', 'use_post_normalize', 'predict_stress', 'predict_vocal_shva', 'stress_placement', and 'schema'
+2025-09-12 08:25:59,775 - INFO - Flow started with ID: 5dd2ec7b-1524-432c-aeb1-f72b0f558855
+2025-09-12 08:25:59,778 - INFO - Tokens used: 0
+2025-09-12 08:25:59,834 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 08:26:02,181 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 08:26:02,184 - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-12 08:26:02,191 - INFO - [2025-09-12 08:26:02.191479] Customer: (in a slightly frustrated Israeli accent)
+
+ Hello, thank you for answering. My name is David, and I'm calling from Haifa. I'm calling about my TV subscription with Bezeq. (pausing for a moment) 
+
+Ha'olam, anu ohevim lehechker et ha-cheshbon shelani, im ha-shalom, im ha-matzav. (Oh, we need to examine my account, regarding the peace of mind, regarding the current situation).
+
+Ani ma'atzilim al ha-shalom she-ha-kav ha-zeh lo nidam (I'm fed up with the peace of mind that this subscription is not worth it). Ha-kav lo kasher, ha-servisa ha-rishona ha-lo nishlama... (The subscription is not worth it, the initial service was not satisfactory)... 
+
+Ba-zman ha-zeh, anu ratzim lachelk et ha-shulchan shelani. (At this time, I would like to cancel my subscription). Im a-tzim, a-fichu et ha-dinim shelani. (If it's possible, please settle my bills).
+
+Min ha-bayit, David, Haifa. (This is my number at home, David from Haifa).
+2025-09-12 08:26:02,207 - INFO - Nikud added: in a slightl frustrated sraeli aent ello, thank ou for answering.  name is avid, and m alling from aifa. m alling about m  subsription with eze. pausing for a moment aolam, anu ohevim lehehker et ha heshbon shelani, im ha shalom, im ha matzav. h, we need to examine m aount, regarding the peae of mind, regarding the urrent situation.ni maatzilim al ha shalom she ha kav ha zeh lo nidam m fed up with the peae of mind that this subsription is not worth it. a kav lo kasher, ha servisa ha rishona ha lo nishlama... he subsription is not worth it, the initial servie was not satisfator... a zman ha zeh, anu ratzim lahelk et ha shulhan shelani. t this time,  would like to anel m subsription. m a tzim, a fihu et ha dinim shelani. f its possible, please settle m bills.in ha bait, avid, aifa. his is m number at home, avid from aifa.
+2025-09-12 08:26:02,221 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 08:26:05,791 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 08:26:05,798 - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-12 08:26:05,799 - INFO - [2025-09-12 08:26:05.799798] Agent: Shalom David, ha-shalom. (Hello David, peace to you.)
+
+Ani chasavti kechiah el ayeka (I apologize for the inconvenience). Ha-kav lo kasher, ha-servisa ha-rishona ha-lo nishlama (The subscription did not meet your expectations, the initial service was not satisfactory).
+
+Ha-kav shel Bezeq hu kovetz shel tafkidim meshubachim, (Bezeq's subscription is a collection of excellent services), tafkidim mishnim u-merchavin (like sports channels, and international channels).
+
+Ein lekha ba-zman hahen ha-shavua lachelk et ha-kav (You have no obligation to cancel at this time). Hineh, heim anu rotzim la-g'mil et ha-shalom she-lakhem (We have the possibility to restore your peace of mind).
+
+Kanu na, chavrut'im n'chamdan lachelk (How about we), to create a new plan, tailor-made for you, kovez tzrifim meshubachim (a package of excellent channels). Ha-makom lachem, ha-sechel lishmor (The choice is yours, the smart move is to stay).
+
+Ani rotzim la-machat be-shalom, David. (I want to resolve this in peace, David).
+2025-09-12 08:26:05,810 - ERROR - Error executing listener agent_respond: asyncio.run() cannot be called from a running event loop
+2025-09-12 08:26:05,810 - ERROR - Error executing listener process_customer_input: asyncio.run() cannot be called from a running event loop
+2025-09-12 08:29:44,864 - INFO - Flow started with ID: 2fd8f48f-5cf1-4907-831d-72c1bc35fb95
+2025-09-12 08:29:44,866 - INFO - Tokens used: 0
+2025-09-12 08:29:44,917 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 08:29:46,954 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 08:29:46,963 - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-12 08:29:46,969 - INFO - [2025-09-12 08:29:46.969399] Customer: (In a slightly exasperated, but polite Israeli accent)
+
+Anachnu ba ma'amakim. 
+(Tap, tap, on the phone) Ah, efsher lo ba'amakim. (Tap, tap) Lo, efsher. Boker tov. Hello, I'd like to speak to someone about cancelling my TV subscription, por favor.
+
+(After a brief pause)
+
+Shalom, anochi, Amit ben Avraham, mishlachani lichazak be Channel X, lehitnagel ot ha-sha'arut ha-rov. (Hello, I'm Amit ben Avraham, and I'd like to express my disappointment with Channel X's service.) 
+
+(Note: This Hebrew conversation includes some Hebrew expressions to better suit the context of an Israeli customer service call)
+
+(I pause for the customer service to respond)
+
+(I'll continue the call)
+2025-09-12 08:29:46,999 - INFO - Nikud added: n a slightl exasperated, but polite sraeli aentnahnu ba maamakim. ap, tap, on the phone h, efsher lo baamakim. ap, tap o, efsher. oker tov. ello, d like to speak to someone about anelling m  subsription, por favor.fter a brief pausehalom, anohi, mit ben vraham, mishlahani lihazak be hannel , lehitnagel ot ha shaarut ha rov. ello, m mit ben vraham, and d like to express m disappointment with hannel s servie. ote his ebrew onversation inludes some ebrew expressions to better suit the ontext of an sraeli ustomer servie all pause for the ustomer servie to respondll ontinue the all
+2025-09-12 08:29:47,018 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 08:29:47,567 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 08:29:47,569 - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-12 08:29:47,571 - INFO - [2025-09-12 08:29:47.571639] Agent: Shalom Amit ben Avraham, Tova boker! (Hello Amit ben Avraham, good morning!) 
+
+Eich ha-kol, Amit? (How are you doing?) 
+
+Nitzah le-otcha be Channel X? (You're dissatisfied with Channel X's service?) 
+
+Ktzat avar, efshar she-nir'eh tikkunim? (Just a moment, maybe we can find a solution?) 
+
+Boker tov, Amit, b'she'elah, afkid Channel X. (Good morning, Amit, at your service, I'll cancel your subscription.)
+2025-09-12 08:29:47,590 - ERROR - Error executing listener agent_respond: asyncio.run() cannot be called from a running event loop
+2025-09-12 08:29:47,591 - ERROR - Error executing listener process_customer_input: asyncio.run() cannot be called from a running event loop
+2025-09-12 08:30:36,751 - INFO - Flow started with ID: 52745a78-97f7-4ab9-b31d-72a4ee2d3c3b
+2025-09-12 08:30:36,753 - INFO - Tokens used: 0
+2025-09-12 08:30:36,807 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 08:30:40,305 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 08:30:40,313 - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-12 08:30:40,319 - INFO - [2025-09-12 08:30:40.319738] Customer: (Ringing sound)
+
+Customer Service: (in Hebrew with a hint of an accent)  Shalom, mah nishma?  [Hello, what can I help you with?]
+
+Me (Frustrated but polite in Hebrew):  Shalom, anachnu me ha-kotel [Hello, we are from the Kotel - a neighborhood in Jerusalem]. Ani tsarich l'hivatel et hanekudot she'et ha-kanal [I need to cancel our TV subscription]. Ha-kol ha-kulanu ba-kotel ha-kanal lo nasa bokher,  u ha-bokher sheli lo hoda al ha-chukim shel ha-kanal.  [We are from the Kotel. I need to cancel our TV subscription. The entire neighborhood is canceling the channel because it's not showing decent content, and my son is tired of the rules of the channel].
+
+Customer Service : Ba-shalom, chaver. Im hakol ha-kulanu ba-kotel ratzu l'hivatel et ha-kanal, ze hi hi yoter neta'lam la-man ha-mishpaht [Okay, friend. If everyone in the Kotel is canceling the channel, it's more important for the people who are in charge].
+
+Me:  Ha-kol ha-kulanu ba-kotel ratzu.  Ze hi ha-sha'ashu'im shelanu.  Ha-kol otnu l'hivatel, u  anu ratzon l'hivatel gam [Everybody in the Kotel has canceled. This is our problem. Everybody else has already canceled, and we also want to cancel].
+
+Customer Service:  Im anichnu nikhbadnu et ha-sh'ur ha-kulanu ba-kotel, az ha-kanal ze lo tzarich l'hashkof et ha-sh'ur ha-kulanu [If we are going to remove the service from the entire Kotel, then the channel does not need to provide service to the entire Kotel]. Im kacha, anu tzarich l'faser et ha-sh'ur she'et ha-kanal? [So, we need to disconnect the service for the channel].
+
+Me:  Ha-kol yoter neta'lam la-man ha-mishpaht. Anu otnu l'hivatel ha-kanalet shelanu, u zeh hu ha-sha'ashu'im shelanu. Zei nishlama ha-kanalet shelanu  u az ha-mishpaht yitkabel [It's more important for the people who are in charge. We want to cancel our channels, and this is our problem. Please disconnect our channels, and the authority will take it upon themselves].
+
+(I pause for a moment to let the customer service take the next step)
+
+Customer Service:  Ha-sh'ur ha-kulanu ba-kotel yitnatzar. Ha-kanalet shelanu tiyekhula me ha-sh'ur ha-kulanu ba-kotel.  [The service to the entire Kotel will be cut. Our channel will be removed from the service to the entire Kotel].
+2025-09-12 08:30:40,349 - INFO - Nikud added: inging soundustomer ervie in ebrew with a hint of an aent  halom, mah nishma?  ello, what an  help ou with?e rustrated but polite in ebrew  halom, anahnu me ha kotel ello, we are from the otel   a neighborhood in erusalem. ni tsarih lhivatel et hanekudot sheet ha kanal  need to anel our  subsription. a kol ha kulanu ba kotel ha kanal lo nasa bokher,  u ha bokher sheli lo hoda al ha hukim shel ha kanal.  e are from the otel.  need to anel our  subsription. he entire neighborhood is aneling the hannel beause its not showing deent ontent, and m son is tired of the rules of the hannel.ustomer ervie  a shalom, haver. m hakol ha kulanu ba kotel ratzu lhivatel et ha kanal, ze hi hi oter netalam la man ha mishpaht ka, friend. f everone in the otel is aneling the hannel, its more important for the people who are in harge.e  a kol ha kulanu ba kotel ratzu.  e hi ha shaashuim shelanu.  a kol otnu lhivatel, u  anu ratzon lhivatel gam verbod in the otel has aneled. his is our problem. verbod else has alread aneled, and we also want to anel.ustomer ervie  m anihnu nikhbadnu et ha shur ha kulanu ba kotel, az ha kanal ze lo tzarih lhashkof et ha shur ha kulanu f we are going to remove the servie from the entire otel, then the hannel does not need to provide servie to the entire otel. m kaha, anu tzarih lfaser et ha shur sheet ha kanal? o, we need to disonnet the servie for the hannel.e  a kol oter netalam la man ha mishpaht. nu otnu lhivatel ha kanalet shelanu, u zeh hu ha shaashuim shelanu. ei nishlama ha kanalet shelanu  u az ha mishpaht itkabel ts more important for the people who are in harge. e want to anel our hannels, and this is our problem. lease disonnet our hannels, and the authorit will take it upon themselves. pause for a moment to let the ustomer servie take the next stepustomer ervie  a shur ha kulanu ba kotel itnatzar. a kanalet shelanu tiekhula me ha shur ha kulanu ba kotel.  he servie to the entire otel will be ut. ur hannel will be removed from the servie to the entire otel.
+2025-09-12 08:30:40,366 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 08:30:41,745 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 08:30:41,746 - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-12 08:30:41,747 - INFO - [2025-09-12 08:30:41.747065] Agent: Customer Service:  Hi, anu me'ucharim she anachnu nikhbadnu et ha-sh'ur ha-kulanu ba-kotel, le'im ze hi ha-sha'ashu'im shelanu. Chutz mimenu, anu tzadiqim lishmor et ha-chukim shel ha-kanal, [I understand that we are cutting off the service to the entire Kotel, as it is your problem. However, outside of this situation, we value your observance of the channel's rules].
+
+Ha-kanalet shelanu tinatzol l'kabel et ha-kritim shelanu al ha-sh'ur she'et ha-kanal. Im anu tzarich l'mafriach, ma'avir nikhbadnu et ha-sh'ur she'et ha-kanal, [Our channel will accept your complaints about the service with the channel. If you decide to cancel, we will disconnect the service with the channel].
+
+Hinei, heinu lakachat lekha, etsel haderech tzadik shel ha-kanal. Az ha-sh'ur she'et ha-kanal yitkabel l'kol nifla'ot ha-mekhilot, [Here, we give you an alternative: if the channel will accept all the complaints and make the necessary changes, the service with the channel will continue as usual]. Zei lakachat nikhbadna, v'lo tiyekhula, [Please take advantage of this opportunity, and don't cancel].
+
+Kmo sheliya, anu tzadiqim l'kishrot ha-mefitah shel ha-kanal, [As a courtesy, we value the efforts of the channel to solve the problems]. Az ha-sh'ur she'et ha-kanal yitkabel et ha-kritim shelanu, u anu otnu l'tishmor et ha-chukim shel hanekudot, [Therefore, we believe that the service with the channel will meet the demands of your criticism, and we will continue to follow the rules of the channel].
+2025-09-12 08:31:00,915 - INFO - Speech synthesized: agent_0.wav
+2025-09-12 08:31:00,939 - ERROR - Error executing listener agent_respond: [WinError 2] The system cannot find the file specified
+2025-09-12 08:31:00,939 - ERROR - Error executing listener process_customer_input: [WinError 2] The system cannot find the file specified
+2025-09-12 08:31:39,197 - INFO - Flow started with ID: 00ccc18b-9176-4721-ad14-cf4cd3f435c9
+2025-09-12 08:31:39,200 - INFO - Tokens used: 0
+2025-09-12 08:31:39,269 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 08:31:40,313 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 08:31:40,316 - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-12 08:31:40,322 - INFO - [2025-09-12 08:31:40.322195] Customer: (In a thick Hebrew accent)
+
+Ana shalom, efshar li l'takenet she'ilu m'kor ha'kabel? (Hello, can I please speak to a representative?) 
+
+(Waiting for a response)
+
+Boker tov, ani chay ben... (Good morning, my name is...),  v'ana rotzeh lifnei ha'datot l'takenet. (my name is... and I would like to complain about the service.)
+
+(Awaiting response or acknowledgement)
+
+T'nu li she'elat ha'ba. (Hand me over to a representative.)
+2025-09-12 08:31:40,346 - INFO - Nikud added: n a thik ebrew aentna shalom, efshar li ltakenet sheilu mkor hakabel? ello, an  please speak to a representative? aiting for a responseoker tov, ani ha ben... ood morning, m name is...,  vana rotzeh lifnei hadatot ltakenet. m name is... and  would like to omplain about the servie.waiting response or aknowledgementnu li sheelat haba. and me over to a representative.
+2025-09-12 08:31:40,359 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 08:31:41,542 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 08:31:41,544 - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-12 08:31:41,546 - INFO - [2025-09-12 08:31:41.546644] Agent: Shalom, Mr./Ms. Chay ben. (Hello, Mr./Ms. Chay ben) 
+
+Anani yechidat ha'datot l'takenet, shalom. (Hello, I'm a representative, good morning.) 
+
+Hineh, ha'kabel ha'acharon shelkhem ba'yamim hashlishim, mishloach hashanah? (I see you've had your cable service for three months now, on September's payment?) 
+
+Ha'nishka'im al ha'datot shelkhem, efshar le'orer lecha? (The complaints you've had, can I look into them for you?) 
+
+Kavua, im ha'datot mishlechotkhem a'tzumot l'histakerkhem, efshar le'omer lekhem ba'daat? (However, if the complaints are due to a technical issue, I may be able to resolve the problem with you on the phone.)
+2025-09-12 08:31:51,781 - INFO - Speech synthesized: agent_0.wav
+2025-09-12 08:31:51,783 - INFO - Tokens used: 1057
+2025-09-12 08:31:51,875 - ERROR - 
+    Error 296 for command:
+        open agent_0.wav
+    The specified file cannot be played on the specified MCI device.  The file may be corrupt, not in the correct format, or no file handler available for this format.
+2025-09-12 08:31:51,875 - ERROR - 
+    Error 263 for command:
+        close agent_0.wav
+    The specified device is not open or is not recognized by MCI.
+2025-09-12 08:31:51,875 - WARNING - Failed to close the file: agent_0.wav
+2025-09-12 08:31:51,879 - ERROR - Error executing listener client_respond: 
+    Error 296 for command:
+        open agent_0.wav
+    The specified file cannot be played on the specified MCI device.  The file may be corrupt, not in the correct format, or no file handler available for this format.
+2025-09-12 08:31:51,882 - ERROR - Error executing listener agent_respond: 
+    Error 296 for command:
+        open agent_0.wav
+    The specified file cannot be played on the specified MCI device.  The file may be corrupt, not in the correct format, or no file handler available for this format.
+2025-09-12 08:31:51,883 - ERROR - Error executing listener process_customer_input: 
+    Error 296 for command:
+        open agent_0.wav
+    The specified file cannot be played on the specified MCI device.  The file may be corrupt, not in the correct format, or no file handler available for this format.
+2025-09-12 08:33:41,014 - INFO - Flow started with ID: 0480c33a-1519-4105-aef4-02f0dd52f28d
+2025-09-12 08:33:41,016 - INFO - Tokens used: 0
+2025-09-12 08:33:41,069 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 08:33:42,683 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 08:33:42,685 - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-12 08:33:42,691 - INFO - [2025-09-12 08:33:42.691103] Customer: (Deep, exasperated sigh) 
+
+Hello, odemet. (Hello, customer service). Boker tov. (Good morning) 
+
+Ani mishloach shel Israeli, ve-ani rotzeh la'azor. (I'm a customer from Israel, and I need assistance) 
+
+Ani mefachedet she-ba'it la-mocharim, ve-hineni ometz shel mitpacha. (I'm frustrated because of the lack of services, and now I want to cancel my subscription) 
+
+Kol ha-shevuot shelani hanishpachat hayu le-atzmut shel ha-dikduk, ve-kol hu hutz me-ha-mivtza'im she-aniti rotzeh. (All the channels that I want to watch are not included in the basic package, and none of them match what I want) 
+
+Ani rotsa lishkonot ha-abha shel ha-shiva'i al ha-net. (I'd like the cancellation process to be done immediately) 
+
+Kol koreh, odemet, anochi mefachedet be-hatzilut. (Thank you, customer service, I'm frustrated with this situation) 
+
+(Pausing for a moment) 
+
+Hineni rodef lishkonot. (I'm asking to cancel) 
+
+(Breathing heavily) 
+
+Ani rotzeh lishkoat ha-abha shel ha-kanit. (I'd like the cancellation to be processed now)
+2025-09-12 08:33:42,707 - INFO - Nikud added: eep, exasperated sigh ello, odemet. ello, ustomer servie. oker tov. ood morning ni mishloah shel sraeli, ve ani rotzeh laazor. m a ustomer from srael, and  need assistane ni mefahedet she bait la moharim, ve hineni ometz shel mitpaha. m frustrated beause of the lak of servies, and now  want to anel m subsription ol ha shevuot shelani hanishpahat hau le atzmut shel ha dikduk, ve kol hu hutz me ha mivtzaim she aniti rotzeh. ll the hannels that  want to wath are not inluded in the basi pakage, and none of them math what  want ni rotsa lishkonot ha abha shel ha shivai al ha net. d like the anellation proess to be done immediatel ol koreh, odemet, anohi mefahedet be hatzilut. hank ou, ustomer servie, m frustrated with this situation ausing for a moment ineni rodef lishkonot. m asking to anel reathing heavil ni rotzeh lishkoat ha abha shel ha kanit. d like the anellation to be proessed now
+2025-09-12 08:33:42,718 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 08:33:43,809 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 08:33:43,811 - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-12 08:33:43,812 - INFO - [2025-09-12 08:33:43.812974] Agent: Ani mevinnet et shelo ha-kol she-at. Ani ma'alin li'harot ba-shvuot hanishpachat shel ha-mocharim, ve-ani mafkir she-hineh etzionot otomatit shel ha-mivtza'im sheli. (I understand your frustration, I'll double-check the packages and see if there are automatic recommendations that match your preferences.)
+
+Amar ze: "Ani mevinnet li'tadir le-shelo. (Let me see what I can do for you.)
+
+Ma ze hi shelo ha-mivtza'im she-at ratzah la-atzmut shel ha-shvuot hanishpachat shel ha-shevuot hanashim shel ha-mocharim hanishpachat shel ha-shvuot hanashim? (Can you tell me which channels and packages you're interested in?)
+
+Im ani nikhbadash la-kot ha-shvuot hanikhpachat hanashim shel ha-mocharim ha-ot, eich neretz lishkon et ha-abhashim shel ha-kasot hayasra shel ha-abhashim shel ha-mocharim ha-ot? (If I can upgrade you to the premium channels and packages, would you like to keep your account?)
+
+Ani mevinnet et hachlasa ha-kol be-hatzilut. (I'll find a solution to your satisfaction.)
+2025-09-12 08:33:56,976 - INFO - Speech synthesized: agent_0.mp3
+2025-09-12 08:33:56,980 - INFO - Tokens used: 1998
+2025-09-12 08:33:56,985 - INFO - Customer listened to response audio: agent_0.mp3
+2025-09-12 08:33:56,986 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 08:33:58,463 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 08:33:58,470 - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-12 08:33:58,472 - INFO - [2025-09-12 08:33:58.472891] Customer: (I'm responding to the agent's latest message in Hebrew, trying to maintain my frustration but still looking for a resolution)
+
+\u05d0\u05e0\u05d9 \u05dc\u05d0 \u05de\u05d1\u05d9\u05df, \u05d4\u05d0\u05d9\u05da \u05d0\u05ea\u05dd \u05d9\u05db\u05d5\u05dc\u05d9\u05dd \u05dc\u05d3\u05d1\u05e8 \u05e2\u05dc \u05e4\u05ea\u05e8\u05d5\u05df \u05e9\u05dc\u05d0 \u05d4\u05e6\u05d9\u05e3 \u05de\u05e2\u05d5\u05dc\u05dd? \u05db\u05dc \u05de\u05d4 \u05e9\u05d0\u05ea\u05dd \u05d0\u05d5\u05de\u05e8\u05d9\u05dd \u05d4\u05d5\u05d0 \u05e9\u05d0\u05d9\u05df \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05dc\u05d1\u05d8\u05dc \u05d6\u05d0\u05ea. \u05d0\u05e0\u05d9 \u05d6\u05d5\u05e8\u05e7 \u05e4\u05dc\u05d0\u05d8 \u05db\u05d0\u05df, \u05d0\u05dd \u05d0\u05d9\u05df \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05dc\u05e2\u05e9\u05d5\u05ea \u05de\u05e9\u05d4\u05d5, \u05d0\u05e0\u05d9 \u05d6\u05d5\u05e8\u05e7 \u05e4\u05dc\u05d0\u05d8.
+
+(Translation: I don't understand how you can talk about a solution that has never worked before? All you're saying is that there's no possibility to cancel it. I'm throwing this phone here, if there's no way to do something, I'm throwing this phone.)
+2025-09-12 08:34:41,788 - INFO - Flow started with ID: a90eb60e-3849-48d1-bb31-dc6b08f9f431
+2025-09-12 08:34:41,794 - INFO - Tokens used: 0
+2025-09-12 08:34:41,891 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 08:34:44,026 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 08:34:44,029 - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-12 08:34:44,035 - INFO - [2025-09-12 08:34:44.035526] Customer: (in a gentle yet firm tone) 
+Shalom, zeh Eliav, boker tov. 
+Ani oto shel ha-ma'amad ha-ha'am 9725... 
+Ha'olam ha-nikra TV Plus, 
+Ani tzrikh l'hagor mi-shelo ba-ma'amad.
+
+Translation: 
+Hello, this is Eliav, good morning. 
+I'm the customer from the number 9725... 
+From the company called TV Plus, 
+I'd like to cancel my subscription.
+
+(fed up) Az, ma koreh le-ma'an she-ein ani tzorikh ba-? 
+Ani mishama'at ba-shabbat ba-boker ve-ani mitakhshef shelo ha-Televizia haochma ota...
+
+(meaning 'now you're gonna tell me why I still need it?' 
+I have a satellite dish in the Shabbat morning and I'm fed up that the TV channel isn't working...)
+
+Please go ahead and try to resolve this, but be aware I'm about to give up.
+2025-09-12 08:34:44,071 - INFO - Nikud added: in a gentle et firm tone halom, zeh liav, boker tov. ni oto shel ha maamad ha haam ... aolam ha nikra  lus, ni tzrikh lhagor mi shelo ba maamad.ranslation ello, this is liav, good morning. m the ustomer from the number ... rom the ompan alled  lus, d like to anel m subsription.fed up z, ma koreh le maan she ein ani tzorikh ba ? ni mishamaat ba shabbat ba boker ve ani mitakhshef shelo ha elevizia haohma ota...meaning now oure gonna tell me wh  still need it?  have a satellite dish in the habbat morning and m fed up that the  hannel isnt working...lease go ahead and tr to resolve this, but be aware m about to give up.
+2025-09-12 08:34:44,106 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 08:34:45,661 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 08:34:45,663 - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-12 08:34:45,666 - INFO - [2025-09-12 08:34:45.666147] Agent: Shalom Eliav, boker tov. 
+
+Ein ba-ma'amad ha-ziyun ha-Shabbati ha-sha'ah hakhisa, u-ba-hekhala Ein keshetot ota. 
+Ha-mas'amim shelenu ha-shavua ba-Shabbat ha-boker hikhbilu le-hagor mi-kol ha-kavanot ha-televizioti. 
+Nitna li l'hashiv ot ha-televizia be-Shabbat, af al pi hakhalsa, u-at bahashivt. 
+
+Translation:
+Hello Eliav, good morning.
+
+Regarding your satellite dish, there's no specific time limit for maintenance on Shabbat. 
+However, in our weekly schedule on Shabbat morning, we've allocated time to perform maintenance on all the TV channels so that they're back up and running. 
+I'll look into restarting the TV channel for you, even if it's past the scheduled maintenance time, so it's fixed for you.
+2025-09-12 08:34:56,311 - INFO - Speech synthesized: agent_0.mp3
+2025-09-12 08:34:56,316 - INFO - Tokens used: 1424
+2025-09-12 08:34:56,329 - INFO - Customer listened to response audio: agent_0.mp3
+2025-09-12 08:34:56,331 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 08:34:58,143 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 08:34:58,145 - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-12 08:34:58,147 - INFO - [2025-09-12 08:34:58.147347] Customer: (Note: Since the previous conversation in Hebrew is not available, I will assume the situation and respond accordingly.)
+
+Agent: (in Hebrew) "\u05d0\u05e0\u05d9 \u05de\u05d1\u05d9\u05df \u05d0\u05ea \u05d4\u05d1\u05e2\u05d9\u05d4, \u05d0\u05d1\u05dc \u05d9\u05e9\u05e0\u05dd \u05db\u05de\u05d4 \u05d5\u05db\u05de\u05d4 \u05db\u05e8\u05d8\u05d9\u05e1\u05d9\u05dd \u05e9\u05e2\u05e9\u05d5\u05d9\u05d9\u05dd \u05dc\u05d4\u05ea\u05d0\u05d9\u05dd \u05dc\u05d3\u05e8\u05d9\u05e9\u05d5\u05ea\u05d9\u05da. \u05d0\u05e4\u05e9\u05e8 \u05dc\u05d4\u05ea\u05d7\u05d9\u05dc \u05e9\u05d5\u05d1 \u05de\u05d3\u05d4\u05d3\u05e8\u05d5\u05ea?  \u05d0\u05dc \u05d7\u05d3\u05e9, 5, 7.5, 8 \u05d0\u05d5 9?  -\u05da\u05dc (I understand the problem, but there are several cards that may suit your needs. Would you like to start again? New, 5, 7.5, 8 or 9?)"
+
+Me: "\u05d0\u05d9\u05e4\u05d4 \u05e9\u05d4\u05d1\u05d9\u05e7\u05d5\u05e8\u05ea?  (Where's the criticism?)  \u05d0\u05ea\u05dd \u05d0\u05d5\u05de\u05e8\u05d9\u05dd \u05e9\u05d0\u05d9\u05e0\u05d9 \u05d9\u05e2\u05d9\u05dc,  (You say I'm not efficient)  \u05d0\u05d1\u05dc \u05dc\u05de\u05d4 \u05d0\u05d9\u05e0\u05d9 \u05d9\u05d5\u05d3\u05e2?  (But why don't I know?)  \u05d4\u05d0\u05e1\u05de\u05da \u05dc\u05e4\u05e0\u05d9 \u05db\u05df \u05d4\u05d5\u05d6\u05d4 \u05e9\u05de\u05ea\u05dc\u05d1\u05d2, (The last time you asked me for information and gave me a vague answer)  -\u05da\u05dc  (I don't know if you even have the cards you're talking about)."
+2025-09-12 09:29:03,168 - INFO - Flow started with ID: 2077ff47-8323-4cb3-9f4f-5932c1fed3c4
+2025-09-12 09:29:03,170 - INFO - Tokens used: 0
+2025-09-12 09:29:03,209 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 09:29:04,811 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 09:29:04,816 - INFO - [2025-09-12 09:29:04.816673] Customer: (In a slightly exasperated Hebrew tone)
+
+Shalom. Ana lo mechabesh et ha'irchat ha'eidan. (Hello, I'm not asking for anything else.) Ktzat anochi omer ba'drashot shehakol lo hutz mimkomo, ve'et hakrav ha'hodoshim anochi eini mefaked et ha'tel avir, ve'at kol kacha ani tzorich lemechorer et hakrav. (Just wanted to call to say that everything is not up to par lately, the new channels are not working, and now I need to cancel my subscription.)
+
+Customer service (in a cheerful English tone):
+I understand that you'd like to cancel your subscription. May I just confirm your account number and address for you?
+
+(In a polite yet firm tone, still in Hebrew):
+Ein ani tzorich la'ma'amad, kulanu nitnafshim. Bati ani omer sheli. Ani tzorich leyechaber et hakrav. (No need to confirm, I have that on file. I just want to cancel my subscription.)
+
+Customer service:
+I see, sir. Let me check on that for you. Can you please hold for just a moment?
+
+(In a calm but slightly frustrated tone, still in Hebrew)
+Ha'yom kochi lo mevaterim shehakrav yihye me'kabel (This is not the first time that they're making excuses for not canceling my subscription.)
+2025-09-12 09:29:04,825 - INFO - Nikud added: n a slightl exasperated ebrew tonehalom. na lo mehabesh et hairhat haeidan. ello, m not asking for anthing else. tzat anohi omer badrashot shehakol lo hutz mimkomo, veet hakrav hahodoshim anohi eini mefaked et hatel avir, veat kol kaha ani tzorih lemehorer et hakrav. ust wanted to all to sa that everthing is not up to par latel, the new hannels are not working, and now  need to anel m subsription.ustomer servie in a heerful nglish tone understand that oud like to anel our subsription. a  just onfirm our aount number and address for ou?n a polite et firm tone, still in ebrewin ani tzorih lamaamad, kulanu nitnafshim. ati ani omer sheli. ni tzorih leehaber et hakrav. o need to onfirm,  have that on file.  just want to anel m subsription.ustomer servie see, sir. et me hek on that for ou. an ou please hold for just a moment?n a alm but slightl frustrated tone, still in ebrewaom kohi lo mevaterim shehakrav ihe mekabel his is not the first time that there making exuses for not aneling m subsription.
+2025-09-12 09:29:04,833 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 09:29:05,737 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 09:29:05,738 - INFO - [2025-09-12 09:29:05.738149] Agent: Ani ma'akirim elchem et hamacholash k'tzat. (I understand your frustration.) 
+
+Ani ovedet ba'aruch yoter mipney ha'kra'ot she'atah shochadti. (I'm going to check why we're having trouble canceling your subscription.) 
+
+Tzilchem, anu yechaber imkhem et hakrav, av ki atem osechim k'chol, efsharut ota lireshem l'mkorer et hakrav al yedei hamakhshef. (Let me see if we can cancel your subscription, but if we run into any issues, it might be easier to do so through email. Would you like that?)
+2025-09-12 09:29:12,930 - ERROR - Error executing listener agent_respond: [WinError 2] The system cannot find the file specified
+2025-09-12 09:29:12,930 - ERROR - Error executing listener process_customer_input: [WinError 2] The system cannot find the file specified
+2025-09-12 09:29:45,539 - INFO - Flow started with ID: 5545c744-3b7e-4901-b998-1e74c2dddd12
+2025-09-12 09:29:45,541 - INFO - Tokens used: 0
+2025-09-12 09:29:45,575 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 09:29:47,936 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 09:29:47,937 - INFO - [2025-09-12 09:29:47.937457] Customer: (Kvetching and frustrated tone) 
+Shalom, I'm calling from (my name), 054-1234567. 
+
+Customer service representative: "Hello, thank you for calling. How can I assist you today?"
+
+(Lightly upset but polite) 
+\u05d0\u05e0\u05d9 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05d1\u05d8\u05dc \u05d0\u05ea \u05d4\u05d7\u05d5\u05d6\u05d4 \u05e9\u05dc\u05d9, (my last name) \u05db\u05d1\u05e8 3 \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd \u05e9\u05dc\u05d0 \u05d0\u05e0\u05e6\u05d9\u05d7 (I'm (my name) and I want to cancel my contract. Three months have already passed since I haven't received the channels I was promised.)
+
+Customer service representative: "I'm sorry to hear that. Let me see what I can do. Can you please tell me more about the issues you're experiencing?"
+
+(Firm but calm) 
+\u05d0\u05dc \u05ea\u05ea\u05e4\u05dc\u05d0\u05d5 \u05e9\u05dc\u05d0 \u05e9\u05de\u05e2\u05ea\u05dd, \u05e0\u05e9\u05d9\u05d0\u05ea\u05d9 \u05d3\u05d5\u05e8\u05e9\u05ea (Don't be surprised, I've asked many times – I want to cancel my contract, and I'd like a full refund for the last three months.)
+
+Customer service representative: "I understand your frustration, sir. Can you please hold for just a moment while I check on the status of your account?"
+
+(Frustrated but polite) 
+\u05dc\u05d0, \u05d0\u05dc \u05ea\u05e2\u05db\u05d1\u05d5. (No, don't delay. Can we please resolve this now?)
+2025-09-12 09:29:47,948 - INFO - Nikud added: vething and frustrated tone halom, m alling from m name,  . ustomer servie representative ello, thank ou for alling. ow an  assist ou toda?ightl upset but polite \u0294\u02c8nj r\u02c8ts l\u02c8vtl \u0294\u02c8t h\u02c8xz \u0283\u02c8lj, m last name x\u02c8vr  x\u02c8d\u0283m \u0283\u02c8l \u0294\u02c8ntsx m m name and  want to anel m ontrat. hree months have alread passed sine  havent reeived the hannels  was promised.ustomer servie representative m sorr to hear that. et me see what  an do. an ou please tell me more about the issues oure experiening?irm but alm \u0294\u02c8l t\u02c8tfl\u0294v \u0283\u02c8l \u0283\u02c8m\u0294tm, n\u02c8\u0283tj d\u02c8r\u0283t ont be surprised, ve asked man times   want to anel m ontrat, and d like a full refund for the last three months.ustomer servie representative  understand our frustration, sir. an ou please hold for just a moment while  hek on the status of our aount?rustrated but polite l\u02c8, \u0294\u02c8l t\u02c8\u0294xvv. o, dont dela. an we please resolve this now?
+2025-09-12 09:29:47,963 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 09:29:49,012 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 09:29:49,014 - INFO - [2025-09-12 09:29:49.014859] Agent: "\u05d0\u05e0\u05d9 \u05de\u05d1\u05d9\u05df \u05d0\u05ea \u05ea\u05e1\u05db\u05d5\u05dc\u05da, \u05d5\u05d0\u05e0\u05d9 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05e2\u05d6\u05d5\u05e8. (I understand your frustration, and I want to help.) \u05d0\u05d9\u05e4\u05d5\u05d0, \u05d0\u05e0\u05d9 \u05d1\u05d0 \u05dc\u05d1\u05e7\u05e9, \u05d4\u05d0\u05dd \u05d0\u05ea\u05d4 \u05e8\u05e6\u05d5\u05df \u05dc\u05d4\u05e2\u05d3\u05d9\u05e3, \u05dc\u05e7\u05e0\u05ea \u05d0\u05ea \u05d4\u05ea\u05d5\u05e1\u05e4\u05ea "\u05e0\u05e9\u05d9\u05d0\u05ea\u05d9" \u05dc\u05d0\u05e4\u05d9\u05d6\u05d5\u05d3, \u05d4\u05de\u05db\u05d9\u05dc\u05d4 \u05d0\u05ea \u05d4\u05ea\u05d5\u05db\u05e0\u05d9\u05d5\u05ea \u05e9\u05d0\u05dc\u05d9\u05d4\u05dd (Are you interested in upgrading to an add-on that includes the channels you missed?) \u05d6\u05d0\u05ea, \u05ea\u05d5\u05da \u05e9\u05d0\u05e0\u05d5 \u05e0\u05de\u05e9\u05db\u05d9\u05dd \u05dc\u05d0\u05d5\u05ea\u05d4 \u05d7\u05d5\u05d6\u05d4 \u05e9\u05dc\u05da?"
+2025-09-12 09:29:55,157 - INFO - Speech synthesized: agent_0.mp3
+2025-09-12 09:29:55,158 - INFO - Tokens used: 1302
+2025-09-12 09:29:55,162 - INFO - Customer listened to response audio: agent_0.mp3
+2025-09-12 09:29:55,163 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 09:29:57,017 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 09:29:57,018 - INFO - [2025-09-12 09:29:57.018267] Customer: I'd like to simulate a conversation in Hebrew, but since I'm a large language model, I'll try to represent the Hebrew language using English letters. This may not be accurate, and I'll appreciate your understanding.
+
+If the agent says:
+" \u05d0\u05e0\u05d9 \u05de\u05d1\u05d9\u05df, \u05d0\u05ea\u05d4 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05d7\u05d6\u05d5\u05e8 \u05e2\u05dc \u05d4\u05e1\u05e2\u05d9\u05e3 7?"
+
+(I understand, you want to go back to clause 7?)
+
+My response:
+"\u05d0\u05e0\u05d9 \u05dc\u05d0 \u05d1\u05d8\u05d5\u05d7, \u05ea\u05e1\u05d1\u05d9\u05e8\u05d9 \u05dc\u05d9 \u05de\u05d4 \u05d4\u05d1\u05e2\u05d9\u05d4 \u05e9\u05dd. \u05d0\u05e0\u05d9 \u05db\u05d1\u05e8 \u05e0\u05d9\u05e1\u05d9\u05ea\u05d9 \u05dc\u05d4\u05d1\u05d9\u05df \u05d5\u05d0\u05e0\u05d9 \u05e2\u05d3\u05d9\u05d9\u05df \u05d7\u05d5\u05e9\u05d1 \u05e9\u05d0\u05d9\u05d6\u05d4 \u05dc\u05d0 \u05d4\u05d1\u05e0\u05d4. \u05d9\u05db\u05d5\u05dc\u05ea\u05da \u05dc\u05ea\u05db\u05e0\u05df \u05d0\u05ea\u05d9 \u05d0\u05ea \u05d4\u05d0\u05d5\u05e4\u05e6\u05d9\u05d5\u05ea \u05d4\u05d0\u05d7\u05e8\u05d5\u05ea?" (I'm not sure, explain to me what's the issue with that. I've tried to understand it, and I still think it's a misunderstanding. Can you outline some other options for me?)
+2025-09-12 09:30:54,829 - INFO - Flow started with ID: 37e09a08-d8dd-47ba-b732-44dcbe920ada
+2025-09-12 09:30:54,831 - INFO - Tokens used: 0
+2025-09-12 09:30:54,870 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 09:30:56,627 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 09:30:56,628 - INFO - [2025-09-12 09:30:56.628414] Customer: (Hebrew)
+Shalom, Customer Service. Ani oheiv lemitbash ha'amud l'mashehu she'tikrah (Hello, customer service. I want to speak to someone about canceling my service).
+
+(To the automated phone menu)
+Efshar she'atah yecholekh lemi, kulanu shomerim b'emtzaa, anashim mevuarim (Can you please connect me to a real person? We are all busy people, with families and work demands).
+
+(Hoping to be connected to a human customer service representative)
+
+Ahlan, Ani Avi, mi ha'shiva she'matan lekha b'she'elah ha'zot? (Hello, I'm Avi, what's the representative's name who I should be speaking to about this issue?)
+2025-09-12 09:30:56,638 - INFO - Nikud added: ebrewhalom, ustomer ervie. ni oheiv lemitbash haamud lmashehu shetikrah ello, ustomer servie.  want to speak to someone about aneling m servie.o the automated phone menufshar sheatah eholekh lemi, kulanu shomerim bemtzaa, anashim mevuarim an ou please onnet me to a real person? e are all bus people, with families and work demands.oping to be onneted to a human ustomer servie representativehlan, ni vi, mi hashiva shematan lekha bsheelah hazot? ello, m vi, whats the representatives name who  should be speaking to about this issue?
+2025-09-12 09:30:56,646 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 09:30:59,429 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 09:30:59,432 - INFO - [2025-09-12 09:30:59.432803] Agent: Shalom Avi, ani shifra, mishmoret ha'khinuch b'shirkutenu (Hello Avi, I'm Shifra, an education manager at our company). \u05d0\u05e0\u05d9 \u05de\u05d1\u05d9\u05e0\u05d4 \u05e9\u05d0\u05ea\u05d4 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05d1\u05d8\u05dc \u05d0\u05ea \u05e9\u05d9\u05e8\u05d5\u05ea\u05d9\u05e0\u05d5, \u05d5\u05d0\u05e0\u05d9 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05e2\u05d6\u05d5\u05e8 \u05dc\u05da.
+
+\u05d0\u05d7\u05e8\u05d9 \u05e9\u05d0\u05e0\u05d7\u05e0\u05d5 \u05e0\u05d8\u05e4\u05dc \u05d1\u05e9\u05d0\u05dc\u05ea\u05da, \u05ea\u05d5\u05db\u05dc \u05dc\u05e9\u05d0\u05d5\u05dc \u05e2\u05dc\u05d9\u05d4\u05dd: \u05d4\u05d0\u05dd \u05d0\u05ea\u05d4 \u05d4\u05d9\u05d4 \u05e1\u05d5\u05e4\u05d2 \u05d1\u05e2\u05d9\u05d5\u05ea \u05d7\u05d5\u05d6\u05e8\u05d5\u05ea \u05e2\u05dd \u05e9\u05d9\u05e8\u05d5\u05ea\u05d9\u05e0\u05d5? 
+(Hey Avi, I understand you want to cancel our service and I'm here to assist you.
+
+After we address your issue, may I ask: have you been experiencing repeated issues with our service?)
+
+\u05d0\u05dd \u05db\u05df, \u05d0\u05e0\u05d7\u05e0\u05d5 \u05d9\u05db\u05d5\u05dc\u05d9\u05dd \u05dc\u05dc\u05db\u05ea \u05e2\u05dc \u05db\u05e3 \u05e8\u05d2\u05dc: \u05e7\u05d5\u05d3\u05dd \u05db\u05dc, \u05d0\u05e0\u05d7\u05e0\u05d5 \u05e0\u05d1\u05d3\u05d5\u05e7 \u05d0\u05dd \u05d4\u05d9\u05d9\u05ea\u05d4 \u05ea\u05e7\u05dc\u05d4 \u05d1\u05e9\u05d9\u05e8\u05d5\u05ea, \u05d5\u05d0\u05dd, \u05d0\u05e0\u05d7\u05e0\u05d5 \u05e0\u05d0\u05e4\u05e9\u05e8 \u05dc\u05da \u05dc\u05ea\u05e2\u05d3\u05d1 \u05dc- 30 \u05d9\u05de\u05d9\u05dd \u05dc\u05dc\u05d0 \u05ea\u05e9\u05dc\u05d5\u05de\u05d9\u05dd (If yes, we can walk you through alternative options.
+
+First, we can check if there was a malfunction with our service. If so, we can offer you an additional 30 days of service without a fee).
+
+\u05d0\u05dd \u05dc\u05d0, \u05d0\u05e0\u05d7\u05e0\u05d5 \u05d9\u05db\u05d5\u05dc\u05d9\u05dd \u05dc\u05e6\u05e4\u05df \u05d0\u05d5\u05ea\u05da \u05dc\u05d7\u05d5\u05d6\u05d4 \u05d7\u05d3\u05e9, \u05e9\u05db\u05d5\u05dc\u05dc \u05de\u05e2\u05e0\u05d4 \u05d3\u05d9\u05e0\u05d0\u05de\u05d9 \u05dc\u05e9\u05d0\u05dc\u05d5\u05ea \u05d0\u05ea\u05da (If not, we can offer you a new contract that includes dynamic response to your needs).
+
+\u05d1\u05d7\u05e8\u05e0\u05d5, Ani avil, (Let's choose the option, Avi).
+2025-09-12 09:31:12,421 - INFO - Speech synthesized: agent_0.mp3
+2025-09-12 09:31:12,422 - INFO - Tokens used: 1584
+2025-09-12 09:31:12,427 - INFO - Customer listened to response audio: agent_0.mp3
+2025-09-12 09:31:12,428 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 09:31:13,039 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 09:31:13,040 - INFO - [2025-09-12 09:31:13.040733] Customer: I'd be happy to respond in Hebrew as the customer. However, I must note that I'm a large language model, my Hebrew language skills are limited, and I might not be able to express myself perfectly. Here's my response:
+
+\u05d0\u05e0\u05d9 \u05e2\u05d3\u05d9\u05d9\u05df \u05dc\u05d0 \u05de\u05e1\u05db\u05d9\u05dd, \u05db\u05d1\u05e8 \u05e1\u05d5\u05e4\u05e8\u05ea\u05d9 5 \u05e4\u05e2\u05de\u05d9\u05dd \u05d0\u05ea \u05d4\u05de\u05e1\u05e4\u05e8 \u05d4\u05d6\u05d4, \u05d0\u05d1\u05dc \u05e2\u05d3\u05d9\u05d9\u05df \u05dc\u05d0 \u05e7\u05d9\u05d1\u05dc\u05ea\u05d9 \u05d0\u05ea \u05d4\u05e4\u05d9\u05e6\u05d5\u05d9. \u05d0\u05ea\u05dd \u05e2\u05d3\u05d9\u05d9\u05df \u05de\u05d0\u05de\u05d9\u05e0\u05d9\u05dd \u05e9\u05d0\u05e0\u05d9 \u05d8\u05e2\u05d9\u05ea\u05d9?
+2025-09-12 10:07:57,239 - INFO - Flow started with ID: e71d3154-edac-4aeb-a0c0-73d4effc5462
+2025-09-12 10:07:57,242 - INFO - Tokens used: 0
+2025-09-12 10:07:57,297 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 10:07:59,896 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 10:07:59,899 - INFO - [2025-09-12 10:07:59.899457] Customer: (Hebrew)
+
+Shalom, lo atem yode'a mimenu. Ani, David,  klitit b'Tel Aviv.  Ein chayav lahitmoded b'machazit zot, \u05d0\u05e0\u05d9 \u05e7\u05d5\u05e8\u05d0 \u05dc\u05de\u05d1\u05d5\u05e8\u05d7,  \u05d9\u05e9 \u05dc\u05d9 \u05d7\u05e9\u05d1\u05d5\u05df \u05d8\u05dc\u05d5\u05d5\u05d9\u05d6\u05d9\u05d4,  \u05d5\u05d0\u05e0\u05db\u05d9 \u05de\u05d1\u05e7\u05e9 \u05dc\u05d1\u05d8\u05dc.
+
+Hello, you don't know who we are talking about. My name is David, I'm from Tel Aviv. I don't need to explain the situation. I have a TV subscription, and I'm asking to cancel it.
+
+(Pausing to allow the customer service representative to respond)
+
+Kavua oti? Ma ha'teshuvah shelachem li? (What's going on? What's your response to me?)
+
+(Speaking slowly and clearly, as if expecting an explanation)
+
+Ani rachutz, ma ha-mishpat otcha? (I'm paying, what's the law here?)
+2025-09-12 10:07:59,938 - INFO - Nikud added: ebrewhalom, lo atem odea mimenu. ni, avid,  klitit bel viv.  in haav lahitmoded bmahazit zot, \u0294\u02c8nj k\u02c8r l\u02c8mvrx,  j\u02c8\u0283 l\u02c8j x\u02c8\u0283vn tlv\u02c8uz,  \u02c8nxj m\u02c8vk\u0283 l\u02c8vtl.ello, ou dont know who we are talking about.  name is avid, m from el viv.  dont need to explain the situation.  have a  subsription, and m asking to anel it.ausing to allow the ustomer servie representative to respondavua oti? a hateshuvah shelahem li? hats going on? hats our response to me?peaking slowl and learl, as if expeting an explanationni rahutz, ma ha mishpat otha? m paing, whats the law here?
+2025-09-12 10:07:59,959 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 10:08:02,016 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 10:08:02,022 - INFO - [2025-09-12 10:08:02.022775] Agent: Shalom, David. Ein tzurich li-limud et ha-ma'gal. Ni'mahem le-David be-Tel Aviv. (Hello, David. We don't need to go into details. Hello David from Tel Aviv.)
+
+Ani rotsa tzav le-daber imach. Ki ha-derech shel khitmat b'tashuvah ein krovah.  Im chavayei le-batul, ha-chayvon yitzmik be-mishlachat. (I'd like to speak with you. The cancellation process can be complex. If you're choosing to cancel, your subscription will be automatically deactivated.)
+
+Ani rutzah she-atah tzorichim ve-lifnetz et ha-shi'ur hamufrad l'toch tzvat ha-chayyon? (I can offer you a personalized package according to your needs.)
+
+Veyoter tzav le-daber im atzmayich ha-chayyon ha-yesh lach, u-mas'ak le-khetev ha-reshi'im she-atim. (And I can discuss alternative options for your existing plan and even offer discounts.)
+
+Ma ha-tikrah le-mishlachat otcha? (How would you like to proceed with the cancellation process?)
+2025-09-12 10:08:17,021 - INFO - Speech synthesized: agent_0.mp3
+2025-09-12 10:08:17,026 - INFO - Tokens used: 1530
+2025-09-12 10:08:17,044 - INFO - Customer listened to response audio: agent_0.mp3
+2025-09-12 10:08:17,047 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 10:08:17,939 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 10:08:17,941 - INFO - [2025-09-12 10:08:17.941101] Customer: (The previous conversation is in Hebrew, so I'll respond accordingly)
+
+\u05d0\u05e0\u05d9 \u05de\u05e2\u05d3\u05d9\u05e3 \u05dc\u05d0 \u05dc\u05d4\u05d2\u05d9\u05d3, \u05d0\u05d1\u05dc \u05d0\u05ea\u05d4 \u05d9\u05db\u05d5\u05dc \u05dc\u05e4\u05e8\u05d8 \u05d9\u05d5\u05ea\u05e8 \u05e2\u05dc \u05d4\u05d0\u05d5\u05e4\u05e6\u05d9\u05d4 \u05d4\u05d7\u05d3\u05e9\u05d4 \u05e9\u05d4\u05e6\u05e2\u05ea.
+2025-09-12 20:39:18,356 - INFO - Flow started with ID: ff153c8c-1b04-47f3-bad3-7d7daf2185b7
+2025-09-12 20:39:18,358 - INFO - Tokens used: 0
+2025-09-12 20:39:18,402 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 20:39:19,435 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 20:39:19,436 - INFO - [2025-09-12 20:39:19.436958] Customer: (in a slightly frustrated tone, but remaining polite)
+
+\u05d0\u05e0\u05d9 \u05de\u05d5\u05d6\u05de\u05df? (Ani mazman? - I'm calling?)
+
+( Customer Service Representative: "Hello, thank you for calling Channel X")
+
+\u05d0\u05dc\u05e3! (Leef! - Good day! I hope I'm speaking to someone who can help me?)
+2025-09-12 20:39:19,446 - INFO - Nikud added: in a slightl frustrated tone, but remaining polite\u0294\u02c8nj m\u02c8zmn? ni mazman?   m alling? ustomer ervie epresentative ello, thank ou for alling hannel \u0294\u02c8lf! eef!   ood da!  hope m speaking to someone who an help me?
+2025-09-12 20:39:19,454 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 20:39:21,380 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 20:39:21,383 - INFO - [2025-09-12 20:39:21.383881] Agent: "\u05d1\u05e8\u05d5\u05da \u05d4\u05d1\u05d0! (Barech haba! - Good day!) \u05d0\u05e0\u05d9 \u05d0\u05e6\u05d9\u05d9\u05df \u05dc\u05e7\u05e6\u05d9, \u05d3"\u05e8 (Ani tzichan lekaftzi, davar - I'm here to help you). \u05de\u05d4 \u05e7\u05d5\u05e8\u05d4, \u05d9\u05e9 \u05d1\u05e2\u05d9\u05d4 \u05e2\u05dd \u05d4\u05d7\u05d1\u05e8\u05ea \u05d4\u05ea\u05e9\u05db\u05d7? (Mah kor'ah, yesh ba'ia im ha-chibur ha-tashkach - What's going on, is there an issue with your subscription?)"
+
+(Translation: "Good day!" "I'm here to help." "What's going on, is there an issue with your subscription?")
+
+Note: I'll continue the conversation based on the customer's response, trying to retain them and offer alternatives to cancellation.
+2025-09-12 20:39:31,518 - INFO - Speech synthesized: agent_0.mp3
+2025-09-12 20:39:31,524 - INFO - Tokens used: 745
+2025-09-12 20:39:31,530 - INFO - Customer listened to response audio: agent_0.mp3
+2025-09-12 20:39:31,531 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-12 20:39:32,337 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 20:39:32,340 - INFO - [2025-09-12 20:39:32.340826] Customer: \u05dc\u05de\u05d4 \u05dc\u05d0 \u05ea\u05e9\u05d9\u05dd \u05d0\u05d5\u05ea\u05d9 \u05d1\u05de\u05e6\u05d1 \u05e9\u05dc \u05d4\u05d7\u05d6\u05e8 \u05de\u05d6\u05d5\u05de\u05df? \u05d0\u05e0\u05d9 \u05d1\u05d8\u05d5\u05d7 \u05e9\u05d0\u05e0\u05d9 \u05d6\u05d4 \u05e9\u05dc\u05d0 \u05d9\u05d3\u05e2\u05ea\u05d9 \u05e2\u05dc \u05d0\u05d5\u05ea\u05df \u05ea\u05e0\u05d0\u05d9\u05dd, \u05d5\u05dc\u05d0 \u05d6\u05d4 \u05e9\u05d0\u05ea\u05dd.
+2025-09-13 20:58:56,831 - INFO - Flow started with ID: 0be9d9a6-11eb-46cc-8d7b-34d7920cec62
+2025-09-13 20:58:56,833 - INFO - Tokens used: 0
+2025-09-13 20:58:56,883 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 20:58:58,164 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 20:58:58,166 - INFO - [2025-09-13 20:58:58.166250] Customer: (In a frustrated but polite Israeli accent in Hebrew)
+
+Customer Service Operator (in Israeli accent): Hello, thank you for calling [TV Provider Company]. How can I assist you today?
+
+Me (Yigal): Ah, hello. Shalom. I'm calling to cancel my TV subscription. Anirotsh le-hagzla shelati, et ha-shidur.
+
+Customer Service Operator: I'm so sorry to hear that, Mr...? (checks customer information)
+
+Me (Yigal): Ani Rotsh Yehuda ben David, ve-aniv shelati ha-shidur ha-yamim ha-hem. Kol ha-yamim, ani mishakha ba-hafrashah ba-televizyah.
+
+Customer Service Operator: I understand, Mr. Rotsh. Let me just check on the status of your account. (pause) Okay, I see that you're an active customer. May I ask why you're wanting to cancel your subscription?
+
+Me (Yigal): Zeh, et ha-mot ha-hem, ha-televizyah shelchem lo keren katzut le-od, ve-aniv shelati le-fa'at et ha-shidur. Ani lo merchi li-khazon le-hafrashah.
+
+Customer Service Operator: I understand your frustration, Mr. Rotsh. Let me see what I can do to assist you. Can I offer you a special deal to try and keep you as a customer?
+
+Me (Yigal): Ani lo merchi li-khazon shel ha-chalom. Ani yechol l'hashkot et ha-teshuvah ba-yom ha-zeh. Anirotsh le-hagzla shelati.
+2025-09-13 20:58:58,178 - INFO - Nikud added: n a frustrated but polite sraeli aent in ebrewustomer ervie perator in sraeli aent ello, thank ou for alling  rovider ompan. ow an  assist ou toda?e igal h, hello. halom. m alling to anel m  subsription. nirotsh le hagzla shelati, et ha shidur.ustomer ervie perator m so sorr to hear that, r...? heks ustomer informatione igal ni otsh ehuda ben avid, ve aniv shelati ha shidur ha amim ha hem. ol ha amim, ani mishakha ba hafrashah ba televizah.ustomer ervie perator  understand, r. otsh. et me just hek on the status of our aount. pause ka,  see that oure an ative ustomer. a  ask wh oure wanting to anel our subsription?e igal eh, et ha mot ha hem, ha televizah shelhem lo keren katzut le od, ve aniv shelati le faat et ha shidur. ni lo merhi li khazon le hafrashah.ustomer ervie perator  understand our frustration, r. otsh. et me see what  an do to assist ou. an  offer ou a speial deal to tr and keep ou as a ustomer?e igal ni lo merhi li khazon shel ha halom. ni ehol lhashkot et ha teshuvah ba om ha zeh. nirotsh le hagzla shelati.
+2025-09-13 20:58:58,188 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 20:58:59,148 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 20:58:59,150 - INFO - [2025-09-13 20:58:59.150416] Agent: Customer Service Operator: (sympathetically) Ah, Mr. Rotsh, anavim mi-ha-sakhanim ha-ketanim. I understand that our service isn't meeting your expectations. Ha-televizyah shelchem lo ha'avarta et ha-shtayim shelkhem.
+
+( pause ) 
+Customer Service Operator: Kol zman, anochi rotza l'mashot et hanigunim shelchem. Anachnu ochezlim li-yesh lchatim hadashim li-reshimat hamshutaf shelchem, im kol ha-kavod li-khazon shelhatav.
+
+Customer Service Operator: (offers alternative) Im tivku, otkia shelanu, anu moshlim im mishlul shel teleshidur yeshan shenikhbad shelkhem. Im tivku li-khazon shelhatav ha-zeh.
+
+Customer Service Operator: (still hopeful) Kol zman, tishlak l'chagizle shelkhem v'im tivku l'mashot et hanigunim shelchem.
+2025-09-13 20:59:09,797 - INFO - Speech synthesized: agent_0.mp3
+2025-09-13 20:59:09,804 - INFO - Tokens used: 1931
+2025-09-13 20:59:09,817 - INFO - Customer listened to response audio: agent_0.mp3
+2025-09-13 20:59:09,820 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 20:59:11,333 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 20:59:11,336 - INFO - [2025-09-13 20:59:11.336299] Customer: (I'll respond in Hebrew, attempting to mimic a frustrated but open-to-persuasion tone)
+
+\u05d0\u05e0\u05d9 \u05dc\u05d0 \u05d1\u05d8\u05d5\u05d7 \u05e9\u05d0\u05dc \u05d6\u05d4 \u05de\u05e1\u05e4\u05d9\u05e7. \u05dc\u05d0 \u05d6\u05d4\u05d1, \u05dc\u05d0 \u05db\u05e1\u05e3, \u05d0\u05d1\u05dc \u05dc\u05d6\u05d4 \u05e2\u05d3\u05d9\u05d9\u05df \u05d6\u05d4 \u05db\u05de\u05d4 \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd \u05e9\u05e0\u05d1\u05d7\u05e8\u05d5. \u05d5\u05d0\u05ea\u05d4 \u05d0\u05d5\u05de\u05e8 \u05e9\u05dc\u05d0 \u05e7\u05d9\u05d9\u05de\u05d9\u05dd \u05d3\u05e8\u05d2\u05d5\u05ea \u05d1\u05d4\u05ea\u05d0\u05dd? (I'm not sure this is enough. It's not gold, it's not money, but it's still a number of events selected. And you're saying there are no levels of progression?)
+
+
+(assuming you want me to continue the conversation, I can proceed to respond to the agent in Hebrew)
+2025-09-13 21:08:19,388 - INFO - Flow started with ID: 859cec2a-1322-4613-b62a-90f9f2736ab8
+2025-09-13 21:08:19,390 - INFO - Tokens used: 0
+2025-09-13 21:08:19,441 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:08:22,056 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:08:22,059 - INFO - [2025-09-13 21:08:22.059723] Customer: (in a frustrated but polite tone, speaking in Hebrew)
+
+"Shalom, anachnu chutz la'aretz, afilu kein anashim, oso aniyim od yom, im ha'or ve-hashvil hashavua, veha'kol kein chutz meha'yom ha'ze, oso lo natnu ba'ayat ha'zman shelanu be'shvil ha'reklam, u-khatnu ba'memsha, u-ka'amodot shelachem be'atzmut, anivim kein aniyim. (pause)
+
+"Anu me'od notsim l'halach ba'kalkala le'kabel chaber ke'ilu, ve-ha'kol kvar, shelo chiberu ha'vedor shenatanu, ve-kvar ha'kol, anu lo ba'amodot ba'zeh, ve-kvar anu me'od me'ochazim. (pause)
+
+"Ayin ha'emet, anu me'od notsim l'halach ve-la'hatchilot ba'televisya, u-ha'kol ha'zeh, me'od me'ochzut ha'demea, ha'kalkala, u-ve'shvil ha'shvil. Anu rishonim, ve-kvar anu lo katanim, ve-chaber anu me'od me'ochzim. (pause)
+
+"Anu osovim od yom, ve-anu me'od me'ochzim, ve-anu me'od matim le'shilim, ve-kvar anu chaserim kein chaserim, u-ha'televisya lo hia shvil. Anu orev l'mutbalag, u-ha'kol kvar, anu lo me'od notsim l'halach be'shvil ha'reklam. (pause)
+
+"L'kabel ha'kalkala l'hishteir la'chet ha'televisya ha'zot. L'mutbalag l'shalach, ve-ha'kol kvar, l'imutz ha'chet ha'zot. Ve-ratsa l'tov ha'televisya, ha'kalkala, ve-shvil ha'shvil." (slowly and calmly)
+
+Translation:
+
+"Hello, welcome to customer service. I'm sorry to say that we're not satisfied with the service we've received from you. The promotions you're offering are not suitable for us. We've been with you for a long time, but it's not worth it anymore. (pause)
+
+"We expected more quality from you, but we don't see it. We're not interested in the bundles you're offering because they're not good for us. (pause)
+
+"Honestly, we're very dissatisfied with the quality of the service, the cable, and the reception. We're one of your oldest customers, and it's not worth it for us. We're sorry to cancel, but we're not satisfied with the service. (pause)
+
+"We're not interested in promotions anymore. We're fed up with the service you're offering. We're not satisfied with the quality of the service, and we think it's time to cancel. (pause)
+
+"Please cancel our subscription. We're not interested in continuing with you. The service is not good, and we think it's time to move on. And please, try to improve your service, your cable, and your reception."
+2025-09-13 21:08:22,079 - INFO - Nikud added: in a frustrated but polite tone, speaking in ebrewhalom, anahnu hutz laaretz, afilu kein anashim, oso aniim od om, im haor ve hashvil hashavua, vehakol kein hutz mehaom haze, oso lo natnu baaat hazman shelanu beshvil hareklam, u khatnu bamemsha, u kaamodot shelahem beatzmut, anivim kein aniim. pausenu meod notsim lhalah bakalkala lekabel haber keilu, ve hakol kvar, shelo hiberu havedor shenatanu, ve kvar hakol, anu lo baamodot bazeh, ve kvar anu meod meohazim. pausein haemet, anu meod notsim lhalah ve lahathilot batelevisa, u hakol hazeh, meod meohzut hademea, hakalkala, u veshvil hashvil. nu rishonim, ve kvar anu lo katanim, ve haber anu meod meohzim. pausenu osovim od om, ve anu meod meohzim, ve anu meod matim leshilim, ve kvar anu haserim kein haserim, u hatelevisa lo hia shvil. nu orev lmutbalag, u hakol kvar, anu lo meod notsim lhalah beshvil hareklam. pausekabel hakalkala lhishteir lahet hatelevisa hazot. mutbalag lshalah, ve hakol kvar, limutz hahet hazot. e ratsa ltov hatelevisa, hakalkala, ve shvil hashvil. slowl and almlranslationello, welome to ustomer servie. m sorr to sa that were not satisfied with the servie weve reeived from ou. he promotions oure offering are not suitable for us. eve been with ou for a long time, but its not worth it anmore. pausee expeted more ualit from ou, but we dont see it. ere not interested in the bundles oure offering beause there not good for us. pauseonestl, were ver dissatisfied with the ualit of the servie, the able, and the reeption. ere one of our oldest ustomers, and its not worth it for us. ere sorr to anel, but were not satisfied with the servie. pauseere not interested in promotions anmore. ere fed up with the servie oure offering. ere not satisfied with the ualit of the servie, and we think its time to anel. pauselease anel our subsription. ere not interested in ontinuing with ou. he servie is not good, and we think its time to move on. nd please, tr to improve our servie, our able, and our reeption.
+2025-09-13 21:08:22,090 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:08:23,485 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:08:23,487 - INFO - [2025-09-13 21:08:23.487110] Agent: "Shalom, anu me'od me'uchadim im ha'avak she'atzta. Hatzlachat, anu me'od me'uchadim she'atem lo hachamshim l'kabel chaber ke'ilu u-le'halach ba'imutz shel ha'kalkala, ve-ha'kol kvar, la'asot tnu'a shel ha'televisya ha'tovah.
+
+"Ha'kol ein od ha'avak b'shaltul ha'kalkala, ve-anu osovim otnu tnu'a shel chaber ke'ilu, u-ve-shvil ha'shvil u-li'halach ba'televisya ha'tvah. Kavu l'shalach, ve-ha'kol kvar, anu ma'kilim le'chaber ke'ilu, ve-anu osovim od she'atem tzillem mishlach la'asot tnu'a shel chaber ke'ilu me'od chaser.
+
+"Ma shkil ha'televisya, ma shkil ha'kalkala, ma shkil shvil ha'shvil, ve-anu osovim od she'anu tzillem mishlach la'asot tnu'a shel chaber ke'ilu me'od chaser, ve-anu me'uchadim od yom. Anu me'od me'otzim lechaber ke'ilu, u-ha'kol kvar, anu osovim od she'atem tzillem mishlach la'asot tnu'a shel chaber ke'ilu me'od chaser."
+
+Translation:
+
+"Hello, I'm truly sorry to hear that you're not satisfied with our service. We'll try to find a solution to improve your experience and increase the quality of our service, including a more suitable bundle. We're willing to listen to your proposals and adjust our offer accordingly.
+
+"We're flexible and willing to consider your needs. If there's a specific issue with the cable, reception, or our overall service, please let us know. We'd like to work with you to find a solution.
+
+"If you're interested in canceling, we'll make sure that the process is smooth and efficient. However, if you're willing to work with us to adjust our offer, we can try to find a better solution for you. We value our customers and are willing to go the extra mile to retain you."
+
+I would offer a compromise, such as:
+
+* Adjusting the bundle to better suit their needs
+* Upgrading their cable or reception quality
+* Offering a temporary discount or promotion
+* Providing additional channels or features
+* Assisting them in troubleshooting any technical issues
+2025-09-13 21:08:44,472 - INFO - Speech synthesized: agent_0.mp3
+2025-09-13 21:08:44,474 - INFO - Tokens used: 4148
+2025-09-13 21:08:44,480 - INFO - Customer listened to response audio: agent_0.mp3
+2025-09-13 21:08:44,481 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:08:45,095 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:08:45,096 - INFO - [2025-09-13 21:08:45.096842] Customer: I'd like to continue the conversation in Hebrew. Please note that I'll be using a Hebrew translation of the conversation.
+
+You (as the customer): 
+
+(Responding to the agent's previous message) - "\u05d0\u05ea\u05d4 \u05d0\u05e3 \u05e4\u05e2\u05dd \u05dc\u05d0 \u05e2\u05d1\u05d3\u05ea \u05d1\u05ea\u05d5\u05e8 \u05e7\u05dc\u05d9\u05e0\u05d8? \u05d0\u05d9\u05da \u05d9\u05e2\u05e5 \u05d1\u05d0\u05d5\u05e4\u05df \u05db\u05d6\u05d4? \u05d0\u05e0\u05d9 \u05e2\u05d3\u05d9\u05d9\u05df \u05dc\u05d0 \u05de\u05d1\u05d9\u05df \u05d0\u05ea \u05d4\u05d3\u05d1\u05e8\u05d9\u05dd... (Have you ever worked as a client before? How could you give advice in such a manner? I still don't understand the things...)"
+2025-09-13 21:10:39,941 - INFO - Flow started with ID: 0b0be061-46e8-476c-863b-478ee23f2091
+2025-09-13 21:10:39,947 - INFO - Tokens used: 0
+2025-09-13 21:10:40,053 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:10:41,735 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:10:41,738 - INFO - [2025-09-13 21:10:41.738898] Customer: (Answering the phone) 
+Shalom, krovim be-Hotline Ha-Sheket. 
+
+(Hello, Canal + Customer Service)
+
+Me: Ha-shalom, anochi boker chovah le-katel et ha-rashut be-ha-telezisyon. (Hello, I'm a customer and I'd like to cancel my TV subscription now.)
+
+(Pause, taking a deep breath)
+
+Me: (with a hint of frustration) Anochi shochavti me'od. Ha-rashut shelanu ha-yeeshan ha-ma'al me'hag ha-yom, ve-heim ein shavim le-galut. (I'm very disappointed. Our service has been terrible the last few days and there's no excuse for it.)
+
+(Polite but firm)
+
+Me: Ani lo me'atzarti et ha-telezisyon ha-zo me'dat ha-ma'asim, kochavit ba-ha-tziyonut. (I don't want to continue subscribing to this service, I'm from Zion and we have higher expectations.)
+
+(Stating my request clearly)
+
+Me: Krovim, anochi borer al ha-kotel, yehi ha-kotel be-mechayek. (Customer Service, I'm canceling the subscription, please cancel it effective immediately.)
+
+(Pausing for a moment)
+
+Me: (Politely) Ani rotsa shemot ba-khovot, le'ha-machbir. (Could you please confirm the cancellation, thank you.)
+
+(Breathing a little easier, hoping for a resolution)
+2025-09-13 21:10:41,771 - INFO - Nikud added: nswering the phone halom, krovim be otline a heket. ello, anal  ustomer erviee a shalom, anohi boker hovah le katel et ha rashut be ha telezison. ello, m a ustomer and d like to anel m  subsription now.ause, taking a deep breathe with a hint of frustration nohi shohavti meod. a rashut shelanu ha eeshan ha maal mehag ha om, ve heim ein shavim le galut. m ver disappointed. ur servie has been terrible the last few das and theres no exuse for it.olite but firme ni lo meatzarti et ha telezison ha zo medat ha maasim, kohavit ba ha tzionut.  dont want to ontinue subsribing to this servie, m from ion and we have higher expetations.tating m reuest learle rovim, anohi borer al ha kotel, ehi ha kotel be mehaek. ustomer ervie, m aneling the subsription, please anel it effetive immediatel.ausing for a momente olitel ni rotsa shemot ba khovot, leha mahbir. ould ou please onfirm the anellation, thank ou.reathing a little easier, hoping for a resolution
+2025-09-13 21:10:41,805 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:10:43,345 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:10:43,348 - INFO - [2025-09-13 21:10:43.348482] Agent: Shalom, ha-chalom shelanu ni-khavod al miktzoatav, v'hechsheiram ba-khovot. Ein shavim le-zicheret k'tel shelanu, krovim. (Hello, I understand your frustration, and I'm here to help. I'll make sure to process your request immediately, customer service.)
+
+Ani nofonim le-kotel shelanu v'hafetz la-kotel she-yihyeh me-yeshan bi-mechayek. (We will cancel your subscription, and it will be effective immediately.)
+
+Me'ozav chaviv, krovim, anochi nofonim le-khovot avoda le-hashvata ha-ze. (I apologize for the inconvenience, customer service. I'm sending you a confirmation via email with our reference number.)
+
+Hinei, krovim, le-havdil et ha-rashut shelanu, shirot ha-hagsha'a ha-ze mishakhal et ha-mishpekha shelanu. (Here, customer service, as an alternative, we can offer you our 'premium' plan for the next 30 days at a special price, which includes additional channels and a personal account manager.)
+
+Ani rotsa al ha-kvot ha-zot, krovim. (May I take this opportunity to thank you, customer service.)
+
+(In the background, I'll be working to process the cancellation and offer alternatives.)
+2025-09-13 21:10:56,990 - INFO - Speech synthesized: agent_0.mp3
+2025-09-13 21:10:56,999 - INFO - Tokens used: 2203
+2025-09-13 21:10:57,011 - INFO - Customer listened to response audio: agent_0.mp3
+2025-09-13 21:10:57,013 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:10:57,912 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:10:57,915 - INFO - [2025-09-13 21:10:57.915365] Customer: (Note: I'll assume no prior knowledge of Hebrew, and I'll try to convey my frustration and openness to persuasion through the conversation.)
+
+Customer: 
+(Shaking head) "Ani lo yode'a lama atem otochim. Mishelanu oti kulanu, ve-atem mishelanu oti 'ein lecha chelkaim'. Ze halom?" 
+
+(Translation: "I don't understand why you're doing this. We asked everyone, and you're telling us that everyone has no available slots. What does this mean?"
+2025-09-13 21:12:25,138 - INFO - Flow started with ID: 6a9ce792-1636-4fd5-bb7a-4b15197fcd63
+2025-09-13 21:12:25,141 - INFO - Tokens used: 0
+2025-09-13 21:12:25,234 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:12:26,495 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:12:26,498 - INFO - [2025-09-13 21:12:26.498344] Customer: (In a slightly frustrated but polite tone)
+
+Shalom, lo, lo, at the Israeli customer service of (TV Company's name). Ani, (My Name), 972 (phone number). 
+
+Ani oheven et ha-te'ud b'Ma'ariv (I'm calling regarding the subscription in the evening). Ani ose sheloshim sha'ot b'shelo otiyati le-ma'an oti (I've been waiting for more than 3 hours on the phone, no one helped me).
+
+Ani ose li-kor'im et ha-mabat (I've read the cancellation conditions). Ani rotzeh la-hergich et ha te'ud (I'd like to cancel my subscription). 
+
+Ani lo hemshech et ha-kolot (I do not wish to continue the conversation). Ktav et ha-churbanim ba-korim (Please note it down that I request a cancellation). 
+
+Todah.
+2025-09-13 21:12:26,522 - INFO - Nikud added: n a slightl frustrated but polite tonehalom, lo, lo, at the sraeli ustomer servie of  ompans name. ni,  ame,  phone number. ni oheven et ha teud baariv m alling regarding the subsription in the evening. ni ose sheloshim shaot bshelo otiati le maan oti ve been waiting for more than  hours on the phone, no one helped me.ni ose li korim et ha mabat ve read the anellation onditions. ni rotzeh la hergih et ha teud d like to anel m subsription. ni lo hemsheh et ha kolot  do not wish to ontinue the onversation. tav et ha hurbanim ba korim lease note it down that  reuest a anellation. odah.
+2025-09-13 21:12:26,542 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:12:27,719 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:12:27,722 - INFO - [2025-09-13 21:12:27.722245] Agent: Shalom, Ani (Customer Service Agent's name), mishlama shel Israeli (Israeli customer service representative) shel (TV Company's name). 
+
+Ani mitbaleich imkha (I understand your frustration). S'ka ba-rovot shel ha-mishlama (It's unfortunate that you've been waiting for three hours without being helped).
+
+Anahnu motzi'im le-korim la-churban (We'll make sure to note down your cancellation request) u-metach shelo ba-mechir (and we'll process the cancellation as soon as possible). 
+
+Eim kol hakarat k'no'a (However, I would like to offer you an alternative). Ani yechalak la-he'rish be-khutsa shel ma'amad (We offer a reduced premium plan). Ze ye'asher be-khatsa otakh (It will save you money) v'im ha-reshima ha-zot, ki ani me'achrekha ki tishlama ba-tekhtit (and with the cancellation of the regular service, we can offer a gesture of goodwill).
+
+Ktzat, anahnu tzayidu le-fikhsak et ha-teud ba-churban (To confirm, we'll close your subscription). Anei ba'kashot ha-hayot be-khutsa shel ha-dma'ah (You'll receive a confirmation email and a final bill).
+
+Todah le-haavara hazot (Thank you for speaking with us).
+2025-09-13 21:12:41,755 - INFO - Speech synthesized: agent_0.mp3
+2025-09-13 21:12:41,763 - INFO - Tokens used: 1794
+2025-09-13 21:12:41,768 - INFO - Customer listened to response audio: agent_0.mp3
+2025-09-13 21:12:41,770 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:12:42,363 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:12:42,365 - INFO - [2025-09-13 21:12:42.365811] Customer: I'm happy to continue the conversation. Unfortunately, I don't understand Hebrew, so you can respond in English to this customer's reply.
+
+
+Customer: 
+Shikul shehaya lo hodu, shlama lekol ma'an. Tzevet shehaya ba'amad, atsuv ba'aretz. Eini yoda'ti shehaya hodia lama, shehaya hodo lo miskal.
+(Translation to English: 
+What is the problem, what is wrong? The team is at alert, in the state. I didn't understand what happened, it didn't cost a penny.)
+
+What is next?
+2025-09-13 21:13:29,817 - INFO - Flow started with ID: 3b5b1657-2234-460c-a021-72cc90d22bac
+2025-09-13 21:13:29,819 - INFO - Tokens used: 0
+2025-09-13 21:13:29,916 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:13:30,802 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:13:30,812 - INFO - [2025-09-13 21:13:30.812196] Customer: (in a slightly frustrated tone, but polite) 
+Shalom, hello, kanoli shel Keshet? 
+
+(Kanoli shel Keshet roughly translates to 'Keshet Customer Service' or 'Keshet Support')
+
+Me: Ana ratziti l'masek la'kabel ha'kabel shelanu.
+
+(This roughly translates to 'I want to cancel our cable subscription'.
+2025-09-13 21:13:30,835 - INFO - Nikud added: in a slightl frustrated tone, but polite halom, hello, kanoli shel eshet? anoli shel eshet roughl translates to eshet ustomer ervie or eshet upporte na ratziti lmasek lakabel hakabel shelanu.his roughl translates to  want to anel our able subsription.
+2025-09-13 21:13:30,913 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:13:31,926 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:13:31,929 - INFO - [2025-09-13 21:13:31.929085] Agent: Shalom, imra'cha ke'nayem. 
+Ein bechinat l'eitzah al m'shkot ha'amal shelkha, aval hakhakni neshika ba'kabel shelanu.
+Mazkir li ke'tzevet, anahnu mit'amim al eitzot ha'ziku al harakefet ha'amali. 
+Kan li elai? (Translation: 
+Hello, I understand your decision. There's no fee for cancellation, but I'd like to offer you a promotion on our current services.
+I'll review our options for you. What can I do?)
+
+Or, alternatively:
+ Shalom, imra'cha ke'nayem. 
+Lifnim et hakabel, anahnu imetze ha'shvaot, uva'amal hakoveitz.
+Ayal li al ha'armonim shelanu, u'aromam l'kha mi'tok?
+(Even though you're cancelling, I'd like to tell you about our new channels and our summer promotion.
+I can offer you a special bundle and we'll take care of the termination process.)
+2025-09-13 21:13:42,781 - INFO - Speech synthesized: agent_0.mp3
+2025-09-13 21:13:42,786 - INFO - Tokens used: 1049
+2025-09-13 21:13:42,796 - INFO - Customer listened to response audio: agent_0.mp3
+2025-09-13 21:13:42,803 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:13:43,330 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:13:43,333 - INFO - [2025-09-13 21:13:43.333212] Customer: Ha, ma nafsi, lo hityasheret li be'ad ha-kesher bein Haifa la-Yerushalayim. Im haya yoter efshar le-kabel be'ezrat Hashem, anochi lo yachol le-kabel ha-kasaf ha-gadol haza be-hemaysha. 
+
+(Rough Translation: I'm very sorry, but the connection between Haifa and Jerusalem is not stable. If it's possible, with God's help, I would be willing to accept the large payment, but not in this instance.)
+2025-09-13 21:14:34,002 - INFO - Flow started with ID: 763abe02-c6e1-4bf3-b3bd-cc4b67f04c27
+2025-09-13 21:14:34,004 - INFO - Tokens used: 0
+2025-09-13 21:14:34,055 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:14:34,802 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:14:34,804 - INFO - [2025-09-13 21:14:34.804824] Customer: (in a slightly frustrated but polite tone) Shalom, Customer Service. Ani rotze la'agur beinut shel HaMa'ariv, ha-tv shel HaMa'ariv. 
+
+(Translation: Hello, Customer Service. I want to cancel my subscription with HaMa'ariv, the HaMa'ariv TV.)
+2025-09-13 21:14:34,831 - INFO - Nikud added: in a slightl frustrated but polite tone halom, ustomer ervie. ni rotze laagur beinut shel aaariv, ha tv shel aaariv. ranslation ello, ustomer ervie.  want to anel m subsription with aaariv, the aaariv .
+2025-09-13 21:14:34,849 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:14:35,414 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:14:35,416 - INFO - [2025-09-13 21:14:35.416964] Agent: "(Hebrew) shalom, od yechola lanu la'imro sheloshim yamin ba-ma'agur. (Translation: Hello, we can extend our conversation for 30 days, and your cancellation won't take effect immediately. HaRishon Shel HaMa'ariv HaZeh Haba'im BaMa'ariv, HaMa'ariv HaYoter Yafeh Mikol HaKvutsa Ha'akhra. (Translation: Our current package with HaMa'ariv is better than the rest. I want to ask, what's not to your liking about your current subscription with HaMa'ariv? Maybe we can find a way to improve it for you.)"
+2025-09-13 21:14:42,054 - INFO - Speech synthesized: agent_0.mp3
+2025-09-13 21:14:42,063 - INFO - Tokens used: 737
+2025-09-13 21:14:42,071 - INFO - Customer listened to response audio: agent_0.mp3
+2025-09-13 21:14:42,075 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:14:42,379 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:14:42,382 - INFO - [2025-09-13 21:14:42.381028] Customer: You didn't initiate this conversation yet. To begin, what would you like to talk about? Would you like to practice a role-play conversation in Hebrew?
+2025-09-13 21:15:22,828 - INFO - Flow started with ID: b995fc86-dc86-4c5c-903b-71f6d7159189
+2025-09-13 21:15:22,831 - INFO - Tokens used: 0
+2025-09-13 21:15:22,878 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:15:23,855 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:15:23,858 - INFO - [2025-09-13 21:15:23.858103] Customer: (Hebrew, with a slight Middle Eastern accent)
+
+Ani ohev et kochav (excitedly) ah, thank you for picking up, I'm having some issues with my TV subscription. Ani shaker, mitkasher (I'm a bit frustrated). My name is David and my account number is (reads off phone screen). 
+
+Kol ha'zman ani charutz l'mabat et ha'shtuv ha'amiti be-kochav (Through all the time I've been a loyal customer with Kochav). Lately, I'm not getting the channels I paid for, and the customer service has been pretty terrible. Ani ohev otchem, avak (I still like you guys), but I need to cancel my subscription immediately.
+
+Ma ha'makshiv et ha'tavat (Can you understand my complaint)?
+2025-09-13 21:15:23,884 - INFO - Nikud added: ebrew, with a slight iddle astern aentni ohev et kohav exitedl ah, thank ou for piking up, m having some issues with m  subsription. ni shaker, mitkasher m a bit frustrated.  name is avid and m aount number is reads off phone sreen. ol hazman ani harutz lmabat et hashtuv haamiti be kohav hrough all the time ve been a loal ustomer with ohav. atel, m not getting the hannels  paid for, and the ustomer servie has been prett terrible. ni ohev othem, avak  still like ou gus, but  need to anel m subsription immediatel.a hamakshiv et hatavat an ou understand m omplaint?
+2025-09-13 21:15:23,900 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:15:25,182 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:15:25,186 - INFO - [2025-09-13 21:15:25.185063] Agent: Shalom, David, slikhah alek. (Hello David, sorry to hear that.) Tov she'anvu, nimtzah et ha'ishur ha'tavati be-kochav, tnu li mishkav. (Let me check your account status in Kochav.) 
+
+Hinei, David, ra'iti kein ha'ishur ha'tavati al ha-meshabrer. Nivchar et kein ha-kana'ot she-ativu lak, ve-hu ha-shtub ha'amiti she-ativu lak. (Here, David, I see that you have the premium package selected, which includes all the channels you paid for.)
+
+Acharey kol ze, ani ma'alin ba-kesher et ha-kol. Ani nifrad mibat ha-shvachot, ve-ein ha-meshabrer et ha-kol b'timtso shel 24 shavua. (After all of this, I'll look into why your channels were cut off. Our system should resolve the issue within 24 hours.)
+
+Im kach, hinei ha-alternativim lek. Hinei, ani nekhleh et ha-kana'ot le-eshuvat ha-shvachot she-ativu l'David. (So here are some alternatives for you.) I can upgrade the channels that were cut off for you, David.
+
+Kol ma she-ata, David, koli elai kusha ha-kol. (So everything that's missing, David, I'll take care of for you.)
+2025-09-13 21:15:44,420 - INFO - Speech synthesized: agent_0.mp3
+2025-09-13 21:15:44,428 - INFO - Tokens used: 1676
+2025-09-13 21:15:44,443 - INFO - Customer listened to response audio: agent_0.mp3
+2025-09-13 21:15:44,445 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:15:45,148 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:15:45,151 - INFO - [2025-09-13 21:15:45.151941] Customer: I can't respond in Hebrew. However, I can continue the conversation in English, pretending to respond to a message in Hebrew and then react accordingly.
+
+Previous message from the agent: 
+
+\u05dc\u05e4\u05e0\u05d9 \u05db\u05de\u05d4 \u05d3\u05e7\u05d5\u05ea - 2/3.  \u05d7\u05d5\u05d3\u05e9\u05d9\u05dd.   I understand your concern about the issue. I would like to offer you an additional 20% discount as a gesture of goodwill, as well as a free upgrade to our premium service for the next 6 months. Would you be interested?
+
+My response:
+
+Are you kidding me? You're just now offering me a discount and a free upgrade? That's completely too little, too late. I've been dealing with this problem for months, and you guys are still not able to fix it. I'm not interested in a free upgrade or a discount if it's not going to fix the problem. Can you just tell me when it will be fixed?
+
+(Note: My tone remains frustrated but I'm trying to remain open to persuasion)
+2025-09-13 21:15:45,201 - INFO - Transcript saved to transcript.txt
+2025-09-13 21:15:45,211 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:15:45,663 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:15:45,665 - INFO - Generated summary: Here's a concise summary of the customer service conversation:
+
+A customer, David, calls to report issues with his TV subscription, mentioning that he's been a loyal customer with Kochav for a long time but has been experiencing problems with channel availability and poor customer service. The agent apologizes, checks his account, and discovers that the premium package has been selected, which should include all the channels he paid for. 
+
+However, the agent offers David a discount and a free upgrade after the customer expresses frustration and announces plans to cancel his subscription. David rejects the offer, stating that it's too little, too late and wants a guarantee that the problem will be fixed.
+2025-09-13 21:33:48,885 - INFO - Flow started with ID: ba51503a-6514-4e85-af95-c5c3bb59173b
+2025-09-13 21:33:48,890 - INFO - Tokens used: 0
+2025-09-13 21:33:48,950 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:33:50,728 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:33:50,733 - INFO - [2025-09-13 21:33:50.733851] Customer: (Answering phone in a mix of English and Hebrew accent)
+
+Customer: Shalom, ani ratzui la-kasher acher et ha-chabalah.
+
+Translation: Hello, I'd like to cancel my subscription.
+
+Customer Service: Ah, shalom, ani otoch Haifa Haifa TV. Ma she-ba, azut ha-meshorer et ha-sheilat ha-sheleima?
+
+Translation: Hi, I'm from Haifa Haifa TV. What's wrong, can I help you with a complaint?
+
+Customer (firm but polite tone): Ha-shvil hazi, ani lo mishaber ba-shvil ha-zeit. Ein ha-chabalah tzayit la-omer ki ata ha-shuv, shlosh shaas ba-yom, ki ha-tv ein metsuv ba-Internet, kach. Ze lo tzayit le'olam, ani lo mishaber.
+
+Translation: The service has been terrible lately. Can someone please help me? The TV isn't working correctly on the internet, it just keeps freezing and I have to wait for three hours every time. This is unacceptable, I'm canceling my subscription.
+
+Customer Service: Ani chasir, efshar im ha-kanilut ha-tekhtiti, azuta otchat ba-meshorer et ha-sheilat ha-sheleima.
+
+Translation: I understand you, let me check into the technical issue, I'll try to help you with a solution.
+
+Customer (polite but firm): Ze lo meshakeret, ani ratzui li-ksher et ha-chabalah, kach, efshar.
+
+Translation: It's okay, I'd rather cancel the subscription. Yes, that's what I'd like.
+
+Customer Service: Ha-shvil he, efshar. Chaber otchat ba-sheilat ha-sheleima, efshar?
+
+Translation: Alright, I understand. Can I give you a cancellation number, okay?
+
+Customer: Toda, ahava.
+
+Translation: Thank you, bye.
+
+Hangs up the phone.
+2025-09-13 21:33:50,764 - INFO - Nikud added: nswering phone in a mix of nglish and ebrew aentustomer halom, ani ratzui la kasher aher et ha habalah.ranslation ello, d like to anel m subsription.ustomer ervie h, shalom, ani otoh aifa aifa . a she ba, azut ha meshorer et ha sheilat ha sheleima?ranslation i, m from aifa aifa . hats wrong, an  help ou with a omplaint?ustomer firm but polite tone a shvil hazi, ani lo mishaber ba shvil ha zeit. in ha habalah tzait la omer ki ata ha shuv, shlosh shaas ba om, ki ha tv ein metsuv ba nternet, kah. e lo tzait leolam, ani lo mishaber.ranslation he servie has been terrible latel. an someone please help me? he  isnt working orretl on the internet, it just keeps freezing and  have to wait for three hours ever time. his is unaeptable, m aneling m subsription.ustomer ervie ni hasir, efshar im ha kanilut ha tekhtiti, azuta othat ba meshorer et ha sheilat ha sheleima.ranslation  understand ou, let me hek into the tehnial issue, ll tr to help ou with a solution.ustomer polite but firm e lo meshakeret, ani ratzui li ksher et ha habalah, kah, efshar.ranslation ts oka, d rather anel the subsription. es, thats what d like.ustomer ervie a shvil he, efshar. haber othat ba sheilat ha sheleima, efshar?ranslation lright,  understand. an  give ou a anellation number, oka?ustomer oda, ahava.ranslation hank ou, be.angs up the phone.
+2025-09-13 21:33:50,794 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:33:51,822 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:33:51,826 - INFO - [2025-09-13 21:33:51.826075] Agent: Customer Service: Shalom, ani Haifa Haifa TV. Ani me'etach li-asher otachat ba-meshorer et ha-sheilat ha-sheleima.
+
+Translation: Hello, I'm from Haifa Haifa TV. I'm here to help you with a solution.
+
+Customer Service: Tze ha-kasherut ba-kheder, kach, ani rotsah ha-meshorer et ha-sheilat ha-sheleima. He, af shloshet shaot ba-yom, ha-TV ein metsetvet ba-internet?
+
+Translation: I understand you want to cancel, okay. I'll check into the technical issue. Three hours a day with the TV freezing on the internet is unacceptable?
+
+Customer Service: Ha-kasherut etam, lo chutz m'od ha-kasherut. Ein chaber otchat li-ksher ha-chabalah, im ha-kasherut she-khulat be-teknolojia. Im kharti, ani osher lekhatkhil et ha-sheilat ha-sheleima, ha-tv ein metsetvet ba-internet. Azuta otchat?
+
+Translation: We'll cancel your subscription, it's not just a cancellation. We have a technology solution that we can offer you to fix the issue. If you would like, I'll see what we can do for you, the TV will work correctly on the internet. How does that sound?
+
+Customer Service: Efshar anshel ha-mishaber ba-kheder, otachat lo tzayit li-ksher ha-chabalah. Ha-kasherut etam.
+
+Translation: We want to keep the customer happy. You're not obligated to cancel. We'll take care of this issue.
+2025-09-13 21:34:39,980 - INFO - Speech synthesized: agent_0.mp3
+2025-09-13 21:34:39,991 - INFO - Tokens used: 2775
+2025-09-13 21:34:40,002 - INFO - Customer listened to response audio: agent_0.mp3
+2025-09-13 21:34:40,007 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:34:40,491 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:34:40,494 - INFO - [2025-09-13 21:34:40.494873] Customer: I don't speak Hebrew, but I'll try my best to simulate a response as a customer who remains frustrated but open to persuasion.
+
+To the agent, I'd respond in simple English:
+
+"Listen, I understand you're trying to help, but I've already wasted over an hour on the phone. Can you please just help me fix this issue now? I just want to cancel my subscription and get a refund.
+
+"I'm willing to listen to your arguments about why I should keep the plan, but I need a solid reason to stay. Right now, it seems like you're just throwing words around to keep me on the phone. What is it, exactly, that you're trying to sell me on?"
+2025-09-13 21:34:40,599 - INFO - Transcript saved to transcript.txt
+2025-09-13 21:34:40,618 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-13 21:34:41,058 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 21:34:41,061 - INFO - Generated summary: Here's a concise summary of the customer service conversation transcript:
+
+A customer cancels their subscription with Haifa Haifa TV due to poor service, specifically issues with freezing and lag on internet streaming. The customer service representative initially tries to offer assistance and ask for more information, but when the customer insists on canceling, they try to persuade them to stay with the service by offering a technical solution. The customer remains open to listening, but their frustration grows as they feel the agent is not offering a concrete solution. The customer then switches to English, reiterating their willingness to cancel and seeking a solid reason to stay.

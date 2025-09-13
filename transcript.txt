@@ -1,0 +1,53 @@
+2025-09-13T21:33:50.734852 - Customer: (Answering phone in a mix of English and Hebrew accent)
+
+Customer: Shalom, ani ratzui la-kasher acher et ha-chabalah.
+
+Translation: Hello, I'd like to cancel my subscription.
+
+Customer Service: Ah, shalom, ani otoch Haifa Haifa TV. Ma she-ba, azut ha-meshorer et ha-sheilat ha-sheleima?
+
+Translation: Hi, I'm from Haifa Haifa TV. What's wrong, can I help you with a complaint?
+
+Customer (firm but polite tone): Ha-shvil hazi, ani lo mishaber ba-shvil ha-zeit. Ein ha-chabalah tzayit la-omer ki ata ha-shuv, shlosh shaas ba-yom, ki ha-tv ein metsuv ba-Internet, kach. Ze lo tzayit le'olam, ani lo mishaber.
+
+Translation: The service has been terrible lately. Can someone please help me? The TV isn't working correctly on the internet, it just keeps freezing and I have to wait for three hours every time. This is unacceptable, I'm canceling my subscription.
+
+Customer Service: Ani chasir, efshar im ha-kanilut ha-tekhtiti, azuta otchat ba-meshorer et ha-sheilat ha-sheleima.
+
+Translation: I understand you, let me check into the technical issue, I'll try to help you with a solution.
+
+Customer (polite but firm): Ze lo meshakeret, ani ratzui li-ksher et ha-chabalah, kach, efshar.
+
+Translation: It's okay, I'd rather cancel the subscription. Yes, that's what I'd like.
+
+Customer Service: Ha-shvil he, efshar. Chaber otchat ba-sheilat ha-sheleima, efshar?
+
+Translation: Alright, I understand. Can I give you a cancellation number, okay?
+
+Customer: Toda, ahava.
+
+Translation: Thank you, bye.
+
+Hangs up the phone.
+2025-09-13T21:33:51.827074 - Agent: Customer Service: Shalom, ani Haifa Haifa TV. Ani me'etach li-asher otachat ba-meshorer et ha-sheilat ha-sheleima.
+
+Translation: Hello, I'm from Haifa Haifa TV. I'm here to help you with a solution.
+
+Customer Service: Tze ha-kasherut ba-kheder, kach, ani rotsah ha-meshorer et ha-sheilat ha-sheleima. He, af shloshet shaot ba-yom, ha-TV ein metsetvet ba-internet?
+
+Translation: I understand you want to cancel, okay. I'll check into the technical issue. Three hours a day with the TV freezing on the internet is unacceptable?
+
+Customer Service: Ha-kasherut etam, lo chutz m'od ha-kasherut. Ein chaber otchat li-ksher ha-chabalah, im ha-kasherut she-khulat be-teknolojia. Im kharti, ani osher lekhatkhil et ha-sheilat ha-sheleima, ha-tv ein metsetvet ba-internet. Azuta otchat?
+
+Translation: We'll cancel your subscription, it's not just a cancellation. We have a technology solution that we can offer you to fix the issue. If you would like, I'll see what we can do for you, the TV will work correctly on the internet. How does that sound?
+
+Customer Service: Efshar anshel ha-mishaber ba-kheder, otachat lo tzayit li-ksher ha-chabalah. Ha-kasherut etam.
+
+Translation: We want to keep the customer happy. You're not obligated to cancel. We'll take care of this issue.
+2025-09-13T21:34:40.494873 - Customer: I don't speak Hebrew, but I'll try my best to simulate a response as a customer who remains frustrated but open to persuasion.
+
+To the agent, I'd respond in simple English:
+
+"Listen, I understand you're trying to help, but I've already wasted over an hour on the phone. Can you please just help me fix this issue now? I just want to cancel my subscription and get a refund.
+
+"I'm willing to listen to your arguments about why I should keep the plan, but I need a solid reason to stay. Right now, it seems like you're just throwing words around to keep me on the phone. What is it, exactly, that you're trying to sell me on?"
